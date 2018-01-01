@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Katie Fillmore</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css"> <!--This needs to go after BS -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,600%7CReenie+Beanie" rel="stylesheet">
+</head>
+
+<!-- First attempt ever to use a Bootstrap framework -->
+<!-- yayyy -->
+
+<body>
+
+<header>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <!-- Hamburger -->
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#!"><img class="logo" src="img/whalehellothere2_logo.png" alt="Whale logo" /></a> <!-- No link -->
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item"><a href="#!">About</a></li> <!-- These don't actually link elsewhere, just practicing making a nav bar -->
+          <li class="nav-item"><a href="#!">Portfolio</a></li> <!-- These don't actually link elsewhere, just practicing making a nav bar -->
+          <li class="nav-item"><a href="#!">Contact Me</a></li> <!-- These don't actually link elsewhere, just practicing making a nav bar -->
+        </ul>
+      </div>
+    </div>
+  </nav> <!-- Eventually it'd be cool to figure out how to get the nav bar to hide when the user scrolls down, and unhide when they scroll up -->
+</header>
+
+<main>
+<section id="Top">
+  <div class="jumbotron text-center">
+    <h1>Whale, hello there!</h1>
+    <p>I'm Katie, web-ninja in training.</p>
+  </div>
+<!-- Trying to get the image to max-width, put it in a separate div and made up a random class name... -->
+<!-- Ended up using main-img class instead for CSS -->
+  <div class="over9000">
+      <img class="main-img" src="img/whalewhalewhale.png" alt="Ocean waves with little sailboat" />
+  </div>
+</section>
+
+<section id="About-Me">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="row half-height">
+          <div class="col-sm-12">
+            <h2 id="hi-there">Hi there!</h2> <!-- nested these inside so that the h2 and image would align vertically -->
+          </div>
+          <div class="col-sm-12">
+            <img class="logo profile" src="img/whalehellothere2_logo.png" alt="Whale logo" />
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <div class="row pad-top">
+          <div class="col-sm-4 split-third"> <!-- nested these inside so that the text would align horizontally w/the h2 and img -->
+            <p>My name is Katie Fillmore. Although "web-ninja" sounds cool, actually I'm a Front-End Web Development student at Udacity.</p>
+          </div>
+          <div class="col-sm-4 split-third">
+            <p>Since I'm just starting out, I don't know what to fill this webpage up with yet, but it's fun to practice!</p>
+          </div>
+          <div class="col-sm-4 split-third">
+            <p>My twin sister absolutely <em>loves</em> <a href="https://www.youtube.com/watch?v=_dE4YrrAAGk" target="_blank"><strong>whales</strong></a>, and someday I'd love to go whale watching with her, so that's why I went with this theme. Yes, I have a twin. No, we aren't identical.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="Featured-Work">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Featured Work</h2>
+        <p>Nothing here yet, but let's pretend.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Project #1</h3>
+        <figure>
+          <a href="#!"><img class="img-thumbnail fade" src="img/cant_touch_this.png" alt="Can't touch this"></a>
+          <figcaption>Stop! ...Hammertime</figcaption>
+        </figure>
+      <!-- Not an actual project link, just a picture I made for this practice Portfolio -->
+        <p>I'm a musician. I love to play all sorts of instruments and compose music. And uh, you can't touch these beats.</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Project #2</h3>
+        <figure>
+          <a href="#!"><img class="img-thumbnail fade" src="img/im_pine_thx.png" alt="I'm pine, thanks"></a>
+          <figcaption>
+            My internet catchprase
+          </figcaption>
+        </figure>
+        <!-- Not an actual project link, just a picture I made for this practice Portfolio -->
+        <p>I was once a sous chef. Mad respect for the pineapple now, because it's the only fruit to ever seriously injure me.</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Project #3</h3>
+        <figure>
+          <a href="#!"><img class="img-thumbnail fade" src="img/Whale_hello_there!.png" alt="Whale, hello there!"></a>
+          <figcaption>Whale, whale, whale, <br /> what do we have here?</figcaption>
+        </figure>
+        <!-- Not an actual project link, just a picture I made for this practice Portfolio -->
+        <p>I'm also a linguist/teacher. I speak English and Mandarin Chinese, and am a sucker for a good pun.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>Created by: Katie Fillmore</p>
+  <p>Time it took for this n00b to make this page: approx. 4 Harry Potter Movies, with commercials</p>
+  <p>Contact information: <a href="mailto:ktfillmore@hotmail.com">ktfillmore@hotmail.com</a>.</p>
+  <p><a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" /> <!-- Proof! I checked it! Did my best ^_^ -->
+    </a>
+  </p>
+
+</footer>
+
+</body>
+</html>

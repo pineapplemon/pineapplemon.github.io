@@ -1,0 +1,192 @@
+
+/* Navigation bar and header */
+
+img.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 72px;
+  height: 72px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 36px;
+}
+
+.navbar {
+  background-color: #cad0ff;
+  border: 0;
+  box-shadow: none;
+}
+
+nav>.container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  }
+
+.navbar-default .navbar-nav>li>a {
+  color: #7065a8;
+  padding: 15px;
+  display: inline-block;
+  font-size: 1.7em;
+  font-weight: 200;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #e7e9ff;
+  transition: 0.2s ease;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #7065a8;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #7065a8;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #e7e9ff;
+}
+
+div#myNavbar.navbar-collapse.collapse.in {
+  background-color: #e7e9ff;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #7065a8;
+}
+
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #cad0ff;
+}
+
+/* Main */
+
+body {
+  margin: 0;
+}
+
+body h2 {
+  color: darkgray;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 4em;
+  padding: .5em;
+  margin: 0;
+  text-align: center;
+}
+
+body p {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 16px;
+}
+
+.jumbotron {
+  background-color: #cad0ff;
+  margin: 0;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 7em;
+  text-shadow: 2px 2px 4px #000000;
+  padding-top: 1em;
+}
+
+.jumbotron p {
+  color: white;
+  padding: 1em 0;
+  margin: 0;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+
+.main-img {
+  width: 100%;
+}
+
+img.profile {
+  height: 144px;
+  width: 144px;
+  border-radius: 72px;
+  border: 1px solid black;
+  padding: 1px;
+  display: block;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.half-height {
+  height: 50%;
+  width: 100%;
+}
+
+.split-third {
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.pad-top {
+  padding-top: 2em;
+}
+
+#hi-there {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* Needed this id so that h2 and img align properly on both desktop and mobile. There was probably a smarter way to do it. */
+
+.col-sm-4 h3 {
+  color: #7065a8;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 4em;
+}
+
+.col-sm-4 p {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+.img-thumbnail {
+  border: 1px solid black;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fade {
+  opacity:1;
+}
+.fade:hover {
+  opacity:0.5;
+}
+
+figcaption {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: darkgray;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+footer {
+  background: #ddd;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-top: 12em;
+    padding-bottom: 12em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding-top: 8em;
+    padding-bottom: 8em;
+  }
+}
